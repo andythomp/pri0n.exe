@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/multplayer_button_quick_game"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/multplayer_button_quick_game" />
+
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/multplayer_button_invite_friends"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/multplayer_button_invite_friends" />
+    
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/multplayer_button_check_invites"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/multiplayer_button_check_invites" />
+
+
+</LinearLayout>

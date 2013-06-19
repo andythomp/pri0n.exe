@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <!--  APP NAME -->
+    <string name="app_name">pri0n.exe</string>
+    
+    <!--  SERVICE NAME -->
+    <string name="service_name">pri0n.exe</string>
+    <string name="service_started">81ACFD35452</string>
+    
+    
+    <!-- SPLASH FRAGMENT -->
+
+    <string name="splash_title">pri0n.exe</string>
+    <string name="splash_message">IMPLEMENT SPLASH MESSAGE</string>
+    <string name="splash_settings_button">Settings</string>
+    <string name="splash_continue_no_sign_in">Play Offline</string>
+    <string name="splash_continue_sign_in">Continue and Sign In</string>
+    
+    <!-- HOME FRAGMENT -->
+    
+    <string name="home_button_world">World</string>
+    <string name="home_button_build">Start/Stop Service</string>
+    <string name="home_button_multiplayer">Multiplayer</string>
+    <string name="home_button_settings">Settings</string>
+    <string name="home_button_stats">Stats</string>
+    <string name="home_button_sign_out">Sign Out</string>
+    <string name="home_button_sign_in">Sign In/Out</string>
+    
+    <!-- MULTIPLAYER FRAGMENT -->
+    
+    <string name="multplayer_button_quick_game">Quick Game</string>
+    <string name="multplayer_button_invite_friends">Invite Friends</string>
+    <string name="multiplayer_button_check_invites">Check Invites</string>
+    
+    <!-- LOADING DIALOG -->
+    <string name="loading_dialog_title">Please Wait</string>
+    <string name="loading_dialog_message">Loading. . .</string>
+    
+    
+    <!-- STATS FRAGMENT -->
+    
+    <string name="stats_achievementsButton">Show Achievements</string>
+    <string name="stats_leaderboardsButton">Show Leaderboards</string>
+    
+    
+    <!-- WORLD FRAGMENT -->
+    
+    <string name="world_drawerHandle">Show Achievements</string>
+    <string name="stats_leaderboardsButton">Show Leaderboards</string>
+    
+    <!-- GOOGLE PLUS FEATURES -->
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signing_in">Signing in with Google</string>
+    <string name="signing_out">Signing out</string>
+    
+    <string name="unaavailable_achievements">You must be signed into Google+ to view achievements.</string>
+    <string name="unavailable_leaderboards">You must be signed into Google+ to view leaderboards.</string>
+    <string name="unavailable_cloud_save">You must be signed into Google+ to have access to cloud saves.</string>
+    <string name="unavailable_realtime_multiplayer">You must be signed into Google+ to have access to real time multi-player.</string>
+    
+    <string name="achievement">Achievement</string>
+    
+    <!--  MULTIPLAYER STRINGS -->
+    <string name="error">Error</string>
+    <string name="game_problem">An error occurred while starting the game. Please try again.</string>
+    
+    <string name="you_win">You win! Your score is:</string>
+    <string name="sign_in_to_upload_this_score">Sign in now to upload this score, save your achievements and share your progress with friends.</string>
+    
+    
+    
+    
+    <!-- DISABLED WIFI ALERT -->
+    <string name="alert_wifi_disabled_title">WiFi Disabled</string>
+    <string name="alert_wifi_disabled_message">
+        It seems like your WiFi is currently disabled.
+        Without working WiFi, you can\'t get wireless networks, and then you really have to ask your self why
+        you\'re even using this application.\n
+        Do you want me to just turn that on for you?
+    </string>
+    <string name="alert_wifi_disabled_positive">DO IT!</string>
+    <string name="alert_wifi_disabled_negative">No, I hate you.</string>
+    
+    
+    <!-- DISABLED GPS ALERT -->
+    <string name="alert_gps_disabled_title">GPS Disabled</string>
+    <string name="alert_gps_disabled_message">
+        It seems like your GPS is currently disabled. 
+        Without a working GPS, you won\'t get the latitude or longitude of any
+        wireless networks that you find.\n
+        Would you like to enable it now?
+    </string>
+    <string name="alert_gps_disabled_positive">Yes!</string>
+    <string name="alert_gps_disabled_negative">Hell no!</string>
+
+</resources>

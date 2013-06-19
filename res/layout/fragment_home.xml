@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/home_button_world"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/home_button_world" />
+
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/home_button_build"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/home_button_build" />
+    
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/home_button_multiplayer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/home_button_multiplayer" />
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/home_button_authentication"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/home_button_sign_in" />
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/home_button_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/home_button_stats" />
+
+    <Button
+        android:layout_weight="1"
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/home_button_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@android:drawable/btn_default"
+        android:text="@string/home_button_settings" />
+
+</LinearLayout>

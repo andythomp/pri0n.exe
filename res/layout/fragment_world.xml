@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+
+    <FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:id="@+id/world_map_container">
+	</FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+   		android:weightSum="4" >
+
+        <ToggleButton
+            android:id="@+id/world_scanButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOff="Scan"
+            android:textOn="Scanning..." />
+
+        <ToggleButton
+            android:id="@+id/world_centerButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textOff="Center"
+            android:textOn="Centering..." />
+        
+    </LinearLayout>
+    
+     <SlidingDrawer
+        android:id="@+id/world_slidingDrawer"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="0dp"
+        android:content="@+id/content"
+        android:handle="@+id/world_drawerHandle"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/world_drawerHandle"
+       		android:layout_margin="0dp"
+            android:background="@android:drawable/btn_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/world_drawerHandle" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="247dp"
+        	android:layout_margin="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/sliding_drawer"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#55FF55" />
+            
+            <ListView  
+                android:id="@+id/world_list"
+	            android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+	        	android:layout_margin="0dp">
+	                
+            </ListView>
+        </LinearLayout>
+        
+        
+    </SlidingDrawer>
+    
+</RelativeLayout> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- APPLICATION ID -->
+    <string name="app_id">864847770709</string>
+
+    <!--  ACHIEVEMENT IDS -->
+    <string name="achievement_find_wifi_1">CgkI1ejG55UZEAIQAg</string>
+    <string name="achievement_find_wifi_2">CgkI1ejG55UZEAIQAw</string>
+    <string name="achievement_find_wifi_3">CgkI1ejG55UZEAIQAQ </string>
+    <string name="achievement_find_home_1">CgkI1ejG55UZEAIQBA</string>
+    <string name="achievement_find_no_home_1">CgkI1ejG55UZEAIQBQ </string>
+    <string name="achievement_secret_find_80211">CgkI1ejG55UZEAIQBw</string>
+
+    <!--  LEADERBOARD IDS -->
+    <string name="leaderboard_find_wifi">CgkI1ejG55UZEAIQCA </string>
+    <string name="leaderboard_race_wifi">CgkI1ejG55UZEAIQCQ </string>
+</resources>
